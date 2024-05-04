@@ -6,9 +6,13 @@ int main() {
     int b=6;
     int c=7;
     
+    int temp=a;
+    a=c;
+    c=b;
+    b=temp;
 
    
 
-    cout<<c<<endl<<a<<endl<<b;
+    cout<<a<<endl<<b<<endl<<c;
     return 0;
 }
