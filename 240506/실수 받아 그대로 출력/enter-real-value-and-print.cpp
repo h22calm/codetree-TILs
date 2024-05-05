@@ -2,9 +2,9 @@
 using namespace std;
 int main() {
     double n;
-    cin>>n;
-    cout.fixed;
-    cout.precision(4);
+    cin >> n;
+    cout<<fixed;
+    cout.precision(2);
     cout<<n;
     // 여기에 코드를 작성해주세요.
     return 0;
